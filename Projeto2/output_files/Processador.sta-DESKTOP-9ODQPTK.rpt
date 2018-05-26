@@ -1,0 +1,684 @@
+TimeQuest Timing Analyzer report for Processador
+Sun May 13 22:17:01 2018
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; Processador                                                       ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C70F896C6                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; a[0]       ; overflow    ; 33.084 ; 33.084 ; 33.084 ; 33.084 ;
+; a[1]       ; overflow    ; 32.914 ; 32.914 ; 32.914 ; 32.914 ;
+; a[2]       ; overflow    ; 33.811 ; 33.811 ; 33.811 ; 33.811 ;
+; a[3]       ; overflow    ; 33.232 ; 33.232 ; 33.232 ; 33.232 ;
+; a[4]       ; overflow    ; 29.019 ; 29.019 ; 29.019 ; 29.019 ;
+; a[5]       ; overflow    ; 30.510 ; 30.510 ; 30.510 ; 30.510 ;
+; a[6]       ; overflow    ; 30.922 ; 30.922 ; 30.922 ; 30.922 ;
+; a[7]       ; overflow    ; 30.008 ; 30.008 ; 30.008 ; 30.008 ;
+; a[8]       ; overflow    ; 23.994 ; 23.994 ; 23.994 ; 23.994 ;
+; a[9]       ; overflow    ; 24.869 ; 24.869 ; 24.869 ; 24.869 ;
+; a[10]      ; overflow    ; 24.345 ; 24.345 ; 24.345 ; 24.345 ;
+; a[11]      ; overflow    ; 25.744 ; 25.744 ; 25.744 ; 25.744 ;
+; a[12]      ; overflow    ; 25.606 ; 25.606 ; 25.606 ; 25.606 ;
+; a[13]      ; overflow    ; 25.879 ; 25.879 ; 25.879 ; 25.879 ;
+; a[14]      ; overflow    ; 25.900 ; 25.900 ; 25.900 ; 25.900 ;
+; a[15]      ; overflow    ; 18.404 ; 18.404 ; 18.404 ; 18.404 ;
+; a[16]      ; overflow    ; 18.714 ; 18.714 ; 18.714 ; 18.714 ;
+; a[17]      ; overflow    ; 18.843 ; 18.843 ; 18.843 ; 18.843 ;
+; a[18]      ; overflow    ; 20.916 ; 20.916 ; 20.916 ; 20.916 ;
+; a[19]      ; overflow    ; 21.825 ; 21.825 ; 21.825 ; 21.825 ;
+; a[20]      ; overflow    ; 21.418 ; 21.418 ; 21.418 ; 21.418 ;
+; a[21]      ; overflow    ; 21.295 ; 21.295 ; 21.295 ; 21.295 ;
+; a[22]      ; overflow    ; 13.171 ; 13.171 ; 13.171 ; 13.171 ;
+; a[23]      ; overflow    ; 14.029 ; 14.029 ; 14.029 ; 14.029 ;
+; a[24]      ; overflow    ; 14.430 ; 14.430 ; 14.430 ; 14.430 ;
+; a[25]      ; overflow    ; 13.980 ; 13.980 ; 13.980 ; 13.980 ;
+; a[26]      ; overflow    ; 15.875 ; 15.875 ; 15.875 ; 15.875 ;
+; a[27]      ; overflow    ; 16.040 ; 16.040 ; 16.040 ; 16.040 ;
+; a[28]      ; overflow    ; 15.596 ; 15.596 ; 15.596 ; 15.596 ;
+; a[29]      ; overflow    ; 10.826 ; 10.826 ; 10.826 ; 10.826 ;
+; a[30]      ; overflow    ; 11.427 ; 11.427 ; 11.427 ; 11.427 ;
+; a[31]      ; overflow    ; 6.362  ; 6.362  ; 6.362  ; 6.362  ;
+; ainvert    ; overflow    ; 36.250 ; 36.250 ; 36.250 ; 36.250 ;
+; b[0]       ; overflow    ; 33.844 ; 33.844 ; 33.844 ; 33.844 ;
+; b[1]       ; overflow    ; 33.338 ; 33.338 ; 33.338 ; 33.338 ;
+; b[2]       ; overflow    ; 33.380 ; 33.380 ; 33.380 ; 33.380 ;
+; b[3]       ; overflow    ; 33.940 ; 33.940 ; 33.940 ; 33.940 ;
+; b[4]       ; overflow    ; 28.472 ; 28.472 ; 28.472 ; 28.472 ;
+; b[5]       ; overflow    ; 30.726 ; 30.726 ; 30.726 ; 30.726 ;
+; b[6]       ; overflow    ; 30.289 ; 30.289 ; 30.289 ; 30.289 ;
+; b[7]       ; overflow    ; 29.614 ; 29.614 ; 29.614 ; 29.614 ;
+; b[8]       ; overflow    ; 24.026 ; 24.026 ; 24.026 ; 24.026 ;
+; b[9]       ; overflow    ; 24.810 ; 24.810 ; 24.810 ; 24.810 ;
+; b[10]      ; overflow    ; 24.658 ; 24.658 ; 24.658 ; 24.658 ;
+; b[11]      ; overflow    ; 25.984 ; 25.984 ; 25.984 ; 25.984 ;
+; b[12]      ; overflow    ; 25.707 ; 25.707 ; 25.707 ; 25.707 ;
+; b[13]      ; overflow    ; 25.928 ; 25.928 ; 25.928 ; 25.928 ;
+; b[14]      ; overflow    ; 25.965 ; 25.965 ; 25.965 ; 25.965 ;
+; b[15]      ; overflow    ; 18.030 ; 18.030 ; 18.030 ; 18.030 ;
+; b[16]      ; overflow    ; 19.105 ; 19.105 ; 19.105 ; 19.105 ;
+; b[17]      ; overflow    ; 19.051 ; 19.051 ; 19.051 ; 19.051 ;
+; b[18]      ; overflow    ; 20.832 ; 20.832 ; 20.832 ; 20.832 ;
+; b[19]      ; overflow    ; 21.658 ; 21.658 ; 21.658 ; 21.658 ;
+; b[20]      ; overflow    ; 21.480 ; 21.480 ; 21.480 ; 21.480 ;
+; b[21]      ; overflow    ; 21.329 ; 21.329 ; 21.329 ; 21.329 ;
+; b[22]      ; overflow    ; 12.868 ; 12.868 ; 12.868 ; 12.868 ;
+; b[23]      ; overflow    ; 14.017 ; 14.017 ; 14.017 ; 14.017 ;
+; b[24]      ; overflow    ; 14.554 ; 14.554 ; 14.554 ; 14.554 ;
+; b[25]      ; overflow    ; 13.928 ; 13.928 ; 13.928 ; 13.928 ;
+; b[26]      ; overflow    ; 15.770 ; 15.770 ; 15.770 ; 15.770 ;
+; b[27]      ; overflow    ; 16.596 ; 16.596 ; 16.596 ; 16.596 ;
+; b[28]      ; overflow    ; 15.695 ; 15.695 ; 15.695 ; 15.695 ;
+; b[29]      ; overflow    ; 11.057 ; 11.057 ; 11.057 ; 11.057 ;
+; b[30]      ; overflow    ; 10.428 ; 10.428 ; 10.428 ; 10.428 ;
+; b[31]      ; overflow    ; 6.093  ; 6.093  ; 6.093  ; 6.093  ;
+; binvert    ; overflow    ; 35.073 ; 35.073 ; 35.073 ; 35.073 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; a[0]       ; overflow    ; 33.084 ; 33.084 ; 33.084 ; 33.084 ;
+; a[1]       ; overflow    ; 32.914 ; 32.914 ; 32.914 ; 32.914 ;
+; a[2]       ; overflow    ; 33.120 ; 33.120 ; 33.120 ; 33.120 ;
+; a[3]       ; overflow    ; 32.877 ; 32.877 ; 32.877 ; 32.877 ;
+; a[4]       ; overflow    ; 28.626 ; 28.626 ; 28.626 ; 28.626 ;
+; a[5]       ; overflow    ; 29.159 ; 29.159 ; 29.159 ; 29.159 ;
+; a[6]       ; overflow    ; 29.471 ; 29.471 ; 29.471 ; 29.471 ;
+; a[7]       ; overflow    ; 28.901 ; 28.901 ; 28.901 ; 28.901 ;
+; a[8]       ; overflow    ; 23.863 ; 23.863 ; 23.863 ; 23.863 ;
+; a[9]       ; overflow    ; 24.538 ; 24.538 ; 24.538 ; 24.538 ;
+; a[10]      ; overflow    ; 24.019 ; 24.019 ; 24.019 ; 24.019 ;
+; a[11]      ; overflow    ; 24.140 ; 24.140 ; 24.140 ; 24.140 ;
+; a[12]      ; overflow    ; 23.811 ; 23.811 ; 23.811 ; 23.811 ;
+; a[13]      ; overflow    ; 23.984 ; 23.984 ; 23.984 ; 23.984 ;
+; a[14]      ; overflow    ; 23.608 ; 23.608 ; 23.608 ; 23.608 ;
+; a[15]      ; overflow    ; 18.251 ; 18.251 ; 18.251 ; 18.251 ;
+; a[16]      ; overflow    ; 17.752 ; 17.752 ; 17.752 ; 17.752 ;
+; a[17]      ; overflow    ; 17.389 ; 17.389 ; 17.389 ; 17.389 ;
+; a[18]      ; overflow    ; 18.385 ; 18.385 ; 18.385 ; 18.385 ;
+; a[19]      ; overflow    ; 20.115 ; 20.115 ; 20.115 ; 20.115 ;
+; a[20]      ; overflow    ; 19.730 ; 19.730 ; 19.730 ; 19.730 ;
+; a[21]      ; overflow    ; 19.758 ; 19.758 ; 19.758 ; 19.758 ;
+; a[22]      ; overflow    ; 12.836 ; 12.836 ; 12.836 ; 12.836 ;
+; a[23]      ; overflow    ; 12.435 ; 12.435 ; 12.435 ; 12.435 ;
+; a[24]      ; overflow    ; 12.967 ; 12.967 ; 12.967 ; 12.967 ;
+; a[25]      ; overflow    ; 13.203 ; 13.203 ; 13.203 ; 13.203 ;
+; a[26]      ; overflow    ; 13.838 ; 13.838 ; 13.838 ; 13.838 ;
+; a[27]      ; overflow    ; 14.183 ; 14.183 ; 14.183 ; 14.183 ;
+; a[28]      ; overflow    ; 13.002 ; 13.002 ; 13.002 ; 13.002 ;
+; a[29]      ; overflow    ; 10.584 ; 10.584 ; 10.584 ; 10.584 ;
+; a[30]      ; overflow    ; 11.414 ; 11.414 ; 11.414 ; 11.414 ;
+; a[31]      ; overflow    ; 6.362  ; 6.362  ; 6.362  ; 6.362  ;
+; ainvert    ; overflow    ; 13.055 ; 13.055 ; 13.055 ; 13.055 ;
+; b[0]       ; overflow    ; 33.844 ; 33.844 ; 33.844 ; 33.844 ;
+; b[1]       ; overflow    ; 33.338 ; 33.338 ; 33.338 ; 33.338 ;
+; b[2]       ; overflow    ; 32.687 ; 32.687 ; 32.687 ; 32.687 ;
+; b[3]       ; overflow    ; 33.315 ; 33.315 ; 33.315 ; 33.315 ;
+; b[4]       ; overflow    ; 28.080 ; 28.080 ; 28.080 ; 28.080 ;
+; b[5]       ; overflow    ; 29.375 ; 29.375 ; 29.375 ; 29.375 ;
+; b[6]       ; overflow    ; 29.263 ; 29.263 ; 29.263 ; 29.263 ;
+; b[7]       ; overflow    ; 28.360 ; 28.360 ; 28.360 ; 28.360 ;
+; b[8]       ; overflow    ; 23.900 ; 23.900 ; 23.900 ; 23.900 ;
+; b[9]       ; overflow    ; 24.478 ; 24.478 ; 24.478 ; 24.478 ;
+; b[10]      ; overflow    ; 24.330 ; 24.330 ; 24.330 ; 24.330 ;
+; b[11]      ; overflow    ; 24.405 ; 24.405 ; 24.405 ; 24.405 ;
+; b[12]      ; overflow    ; 23.912 ; 23.912 ; 23.912 ; 23.912 ;
+; b[13]      ; overflow    ; 24.054 ; 24.054 ; 24.054 ; 24.054 ;
+; b[14]      ; overflow    ; 23.699 ; 23.699 ; 23.699 ; 23.699 ;
+; b[15]      ; overflow    ; 17.877 ; 17.877 ; 17.877 ; 17.877 ;
+; b[16]      ; overflow    ; 18.143 ; 18.143 ; 18.143 ; 18.143 ;
+; b[17]      ; overflow    ; 17.448 ; 17.448 ; 17.448 ; 17.448 ;
+; b[18]      ; overflow    ; 18.058 ; 18.058 ; 18.058 ; 18.058 ;
+; b[19]      ; overflow    ; 19.951 ; 19.951 ; 19.951 ; 19.951 ;
+; b[20]      ; overflow    ; 19.949 ; 19.949 ; 19.949 ; 19.949 ;
+; b[21]      ; overflow    ; 19.619 ; 19.619 ; 19.619 ; 19.619 ;
+; b[22]      ; overflow    ; 12.519 ; 12.519 ; 12.519 ; 12.519 ;
+; b[23]      ; overflow    ; 12.541 ; 12.541 ; 12.541 ; 12.541 ;
+; b[24]      ; overflow    ; 13.091 ; 13.091 ; 13.091 ; 13.091 ;
+; b[25]      ; overflow    ; 13.425 ; 13.425 ; 13.425 ; 13.425 ;
+; b[26]      ; overflow    ; 13.733 ; 13.733 ; 13.733 ; 13.733 ;
+; b[27]      ; overflow    ; 14.592 ; 14.592 ; 14.592 ; 14.592 ;
+; b[28]      ; overflow    ; 13.105 ; 13.105 ; 13.105 ; 13.105 ;
+; b[29]      ; overflow    ; 10.818 ; 10.818 ; 10.818 ; 10.818 ;
+; b[30]      ; overflow    ; 10.146 ; 10.146 ; 10.146 ; 10.146 ;
+; b[31]      ; overflow    ; 6.093  ; 6.093  ; 6.093  ; 6.093  ;
+; binvert    ; overflow    ; 11.611 ; 11.611 ; 11.611 ; 11.611 ;
++------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; a[0]       ; overflow    ; 16.396 ; 16.396 ; 16.396 ; 16.396 ;
+; a[1]       ; overflow    ; 16.316 ; 16.316 ; 16.316 ; 16.316 ;
+; a[2]       ; overflow    ; 16.709 ; 16.709 ; 16.709 ; 16.709 ;
+; a[3]       ; overflow    ; 16.471 ; 16.471 ; 16.471 ; 16.471 ;
+; a[4]       ; overflow    ; 14.506 ; 14.506 ; 14.506 ; 14.506 ;
+; a[5]       ; overflow    ; 15.131 ; 15.131 ; 15.131 ; 15.131 ;
+; a[6]       ; overflow    ; 15.336 ; 15.336 ; 15.336 ; 15.336 ;
+; a[7]       ; overflow    ; 14.938 ; 14.938 ; 14.938 ; 14.938 ;
+; a[8]       ; overflow    ; 12.165 ; 12.165 ; 12.165 ; 12.165 ;
+; a[9]       ; overflow    ; 12.564 ; 12.564 ; 12.564 ; 12.564 ;
+; a[10]      ; overflow    ; 12.302 ; 12.302 ; 12.302 ; 12.302 ;
+; a[11]      ; overflow    ; 12.919 ; 12.919 ; 12.919 ; 12.919 ;
+; a[12]      ; overflow    ; 12.837 ; 12.837 ; 12.837 ; 12.837 ;
+; a[13]      ; overflow    ; 12.982 ; 12.982 ; 12.982 ; 12.982 ;
+; a[14]      ; overflow    ; 12.983 ; 12.983 ; 12.983 ; 12.983 ;
+; a[15]      ; overflow    ; 9.547  ; 9.547  ; 9.547  ; 9.547  ;
+; a[16]      ; overflow    ; 9.717  ; 9.717  ; 9.717  ; 9.717  ;
+; a[17]      ; overflow    ; 9.772  ; 9.772  ; 9.772  ; 9.772  ;
+; a[18]      ; overflow    ; 10.772 ; 10.772 ; 10.772 ; 10.772 ;
+; a[19]      ; overflow    ; 11.057 ; 11.057 ; 11.057 ; 11.057 ;
+; a[20]      ; overflow    ; 10.892 ; 10.892 ; 10.892 ; 10.892 ;
+; a[21]      ; overflow    ; 10.847 ; 10.847 ; 10.847 ; 10.847 ;
+; a[22]      ; overflow    ; 6.977  ; 6.977  ; 6.977  ; 6.977  ;
+; a[23]      ; overflow    ; 7.335  ; 7.335  ; 7.335  ; 7.335  ;
+; a[24]      ; overflow    ; 7.484  ; 7.484  ; 7.484  ; 7.484  ;
+; a[25]      ; overflow    ; 7.317  ; 7.317  ; 7.317  ; 7.317  ;
+; a[26]      ; overflow    ; 8.098  ; 8.098  ; 8.098  ; 8.098  ;
+; a[27]      ; overflow    ; 8.178  ; 8.178  ; 8.178  ; 8.178  ;
+; a[28]      ; overflow    ; 7.976  ; 7.976  ; 7.976  ; 7.976  ;
+; a[29]      ; overflow    ; 5.868  ; 5.868  ; 5.868  ; 5.868  ;
+; a[30]      ; overflow    ; 6.164  ; 6.164  ; 6.164  ; 6.164  ;
+; a[31]      ; overflow    ; 3.252  ; 3.252  ; 3.252  ; 3.252  ;
+; ainvert    ; overflow    ; 18.081 ; 18.081 ; 18.081 ; 18.081 ;
+; b[0]       ; overflow    ; 16.747 ; 16.747 ; 16.747 ; 16.747 ;
+; b[1]       ; overflow    ; 16.506 ; 16.506 ; 16.506 ; 16.506 ;
+; b[2]       ; overflow    ; 16.562 ; 16.562 ; 16.562 ; 16.562 ;
+; b[3]       ; overflow    ; 16.845 ; 16.845 ; 16.845 ; 16.845 ;
+; b[4]       ; overflow    ; 14.260 ; 14.260 ; 14.260 ; 14.260 ;
+; b[5]       ; overflow    ; 15.223 ; 15.223 ; 15.223 ; 15.223 ;
+; b[6]       ; overflow    ; 15.045 ; 15.045 ; 15.045 ; 15.045 ;
+; b[7]       ; overflow    ; 14.773 ; 14.773 ; 14.773 ; 14.773 ;
+; b[8]       ; overflow    ; 12.186 ; 12.186 ; 12.186 ; 12.186 ;
+; b[9]       ; overflow    ; 12.533 ; 12.533 ; 12.533 ; 12.533 ;
+; b[10]      ; overflow    ; 12.418 ; 12.418 ; 12.418 ; 12.418 ;
+; b[11]      ; overflow    ; 13.024 ; 13.024 ; 13.024 ; 13.024 ;
+; b[12]      ; overflow    ; 12.909 ; 12.909 ; 12.909 ; 12.909 ;
+; b[13]      ; overflow    ; 13.003 ; 13.003 ; 13.003 ; 13.003 ;
+; b[14]      ; overflow    ; 13.011 ; 13.011 ; 13.011 ; 13.011 ;
+; b[15]      ; overflow    ; 9.404  ; 9.404  ; 9.404  ; 9.404  ;
+; b[16]      ; overflow    ; 9.871  ; 9.871  ; 9.871  ; 9.871  ;
+; b[17]      ; overflow    ; 9.799  ; 9.799  ; 9.799  ; 9.799  ;
+; b[18]      ; overflow    ; 10.765 ; 10.765 ; 10.765 ; 10.765 ;
+; b[19]      ; overflow    ; 10.967 ; 10.967 ; 10.967 ; 10.967 ;
+; b[20]      ; overflow    ; 10.879 ; 10.879 ; 10.879 ; 10.879 ;
+; b[21]      ; overflow    ; 10.852 ; 10.852 ; 10.852 ; 10.852 ;
+; b[22]      ; overflow    ; 6.813  ; 6.813  ; 6.813  ; 6.813  ;
+; b[23]      ; overflow    ; 7.315  ; 7.315  ; 7.315  ; 7.315  ;
+; b[24]      ; overflow    ; 7.518  ; 7.518  ; 7.518  ; 7.518  ;
+; b[25]      ; overflow    ; 7.275  ; 7.275  ; 7.275  ; 7.275  ;
+; b[26]      ; overflow    ; 8.068  ; 8.068  ; 8.068  ; 8.068  ;
+; b[27]      ; overflow    ; 8.423  ; 8.423  ; 8.423  ; 8.423  ;
+; b[28]      ; overflow    ; 8.022  ; 8.022  ; 8.022  ; 8.022  ;
+; b[29]      ; overflow    ; 5.978  ; 5.978  ; 5.978  ; 5.978  ;
+; b[30]      ; overflow    ; 5.715  ; 5.715  ; 5.715  ; 5.715  ;
+; b[31]      ; overflow    ; 3.137  ; 3.137  ; 3.137  ; 3.137  ;
+; binvert    ; overflow    ; 17.495 ; 17.495 ; 17.495 ; 17.495 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; a[0]       ; overflow    ; 16.396 ; 16.396 ; 16.396 ; 16.396 ;
+; a[1]       ; overflow    ; 16.316 ; 16.316 ; 16.316 ; 16.316 ;
+; a[2]       ; overflow    ; 16.409 ; 16.409 ; 16.409 ; 16.409 ;
+; a[3]       ; overflow    ; 16.315 ; 16.315 ; 16.315 ; 16.315 ;
+; a[4]       ; overflow    ; 14.344 ; 14.344 ; 14.344 ; 14.344 ;
+; a[5]       ; overflow    ; 14.558 ; 14.558 ; 14.558 ; 14.558 ;
+; a[6]       ; overflow    ; 14.709 ; 14.709 ; 14.709 ; 14.709 ;
+; a[7]       ; overflow    ; 14.470 ; 14.470 ; 14.470 ; 14.470 ;
+; a[8]       ; overflow    ; 12.115 ; 12.115 ; 12.115 ; 12.115 ;
+; a[9]       ; overflow    ; 12.520 ; 12.520 ; 12.520 ; 12.520 ;
+; a[10]      ; overflow    ; 12.264 ; 12.264 ; 12.264 ; 12.264 ;
+; a[11]      ; overflow    ; 12.346 ; 12.346 ; 12.346 ; 12.346 ;
+; a[12]      ; overflow    ; 12.159 ; 12.159 ; 12.159 ; 12.159 ;
+; a[13]      ; overflow    ; 12.258 ; 12.258 ; 12.258 ; 12.258 ;
+; a[14]      ; overflow    ; 12.087 ; 12.087 ; 12.087 ; 12.087 ;
+; a[15]      ; overflow    ; 9.477  ; 9.477  ; 9.477  ; 9.477  ;
+; a[16]      ; overflow    ; 9.305  ; 9.305  ; 9.305  ; 9.305  ;
+; a[17]      ; overflow    ; 9.151  ; 9.151  ; 9.151  ; 9.151  ;
+; a[18]      ; overflow    ; 9.569  ; 9.569  ; 9.569  ; 9.569  ;
+; a[19]      ; overflow    ; 10.356 ; 10.356 ; 10.356 ; 10.356 ;
+; a[20]      ; overflow    ; 10.170 ; 10.170 ; 10.170 ; 10.170 ;
+; a[21]      ; overflow    ; 10.197 ; 10.197 ; 10.197 ; 10.197 ;
+; a[22]      ; overflow    ; 6.815  ; 6.815  ; 6.815  ; 6.815  ;
+; a[23]      ; overflow    ; 6.625  ; 6.625  ; 6.625  ; 6.625  ;
+; a[24]      ; overflow    ; 6.878  ; 6.878  ; 6.878  ; 6.878  ;
+; a[25]      ; overflow    ; 6.999  ; 6.999  ; 6.999  ; 6.999  ;
+; a[26]      ; overflow    ; 7.233  ; 7.233  ; 7.233  ; 7.233  ;
+; a[27]      ; overflow    ; 7.376  ; 7.376  ; 7.376  ; 7.376  ;
+; a[28]      ; overflow    ; 6.870  ; 6.870  ; 6.870  ; 6.870  ;
+; a[29]      ; overflow    ; 5.763  ; 5.763  ; 5.763  ; 5.763  ;
+; a[30]      ; overflow    ; 6.147  ; 6.147  ; 6.147  ; 6.147  ;
+; a[31]      ; overflow    ; 3.252  ; 3.252  ; 3.252  ; 3.252  ;
+; ainvert    ; overflow    ; 7.164  ; 7.164  ; 7.164  ; 7.164  ;
+; b[0]       ; overflow    ; 16.747 ; 16.747 ; 16.747 ; 16.747 ;
+; b[1]       ; overflow    ; 16.506 ; 16.506 ; 16.506 ; 16.506 ;
+; b[2]       ; overflow    ; 16.259 ; 16.259 ; 16.259 ; 16.259 ;
+; b[3]       ; overflow    ; 16.558 ; 16.558 ; 16.558 ; 16.558 ;
+; b[4]       ; overflow    ; 14.098 ; 14.098 ; 14.098 ; 14.098 ;
+; b[5]       ; overflow    ; 14.650 ; 14.650 ; 14.650 ; 14.650 ;
+; b[6]       ; overflow    ; 14.619 ; 14.619 ; 14.619 ; 14.619 ;
+; b[7]       ; overflow    ; 14.232 ; 14.232 ; 14.232 ; 14.232 ;
+; b[8]       ; overflow    ; 12.135 ; 12.135 ; 12.135 ; 12.135 ;
+; b[9]       ; overflow    ; 12.488 ; 12.488 ; 12.488 ; 12.488 ;
+; b[10]      ; overflow    ; 12.379 ; 12.379 ; 12.379 ; 12.379 ;
+; b[11]      ; overflow    ; 12.446 ; 12.446 ; 12.446 ; 12.446 ;
+; b[12]      ; overflow    ; 12.231 ; 12.231 ; 12.231 ; 12.231 ;
+; b[13]      ; overflow    ; 12.267 ; 12.267 ; 12.267 ; 12.267 ;
+; b[14]      ; overflow    ; 12.110 ; 12.110 ; 12.110 ; 12.110 ;
+; b[15]      ; overflow    ; 9.332  ; 9.332  ; 9.332  ; 9.332  ;
+; b[16]      ; overflow    ; 9.459  ; 9.459  ; 9.459  ; 9.459  ;
+; b[17]      ; overflow    ; 9.126  ; 9.126  ; 9.126  ; 9.126  ;
+; b[18]      ; overflow    ; 9.441  ; 9.441  ; 9.441  ; 9.441  ;
+; b[19]      ; overflow    ; 10.271 ; 10.271 ; 10.271 ; 10.271 ;
+; b[20]      ; overflow    ; 10.247 ; 10.247 ; 10.247 ; 10.247 ;
+; b[21]      ; overflow    ; 10.130 ; 10.130 ; 10.130 ; 10.130 ;
+; b[22]      ; overflow    ; 6.664  ; 6.664  ; 6.664  ; 6.664  ;
+; b[23]      ; overflow    ; 6.686  ; 6.686  ; 6.686  ; 6.686  ;
+; b[24]      ; overflow    ; 6.912  ; 6.912  ; 6.912  ; 6.912  ;
+; b[25]      ; overflow    ; 7.059  ; 7.059  ; 7.059  ; 7.059  ;
+; b[26]      ; overflow    ; 7.203  ; 7.203  ; 7.203  ; 7.203  ;
+; b[27]      ; overflow    ; 7.583  ; 7.583  ; 7.583  ; 7.583  ;
+; b[28]      ; overflow    ; 6.926  ; 6.926  ; 6.926  ; 6.926  ;
+; b[29]      ; overflow    ; 5.869  ; 5.869  ; 5.869  ; 5.869  ;
+; b[30]      ; overflow    ; 5.583  ; 5.583  ; 5.583  ; 5.583  ;
+; b[31]      ; overflow    ; 3.137  ; 3.137  ; 3.137  ; 3.137  ;
+; binvert    ; overflow    ; 6.464  ; 6.464  ; 6.464  ; 6.464  ;
++------------+-------------+--------+--------+--------+--------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++--------------------------------------------------------------+
+; Progagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; a[0]       ; overflow    ; 33.084 ; 33.084 ; 33.084 ; 33.084 ;
+; a[1]       ; overflow    ; 32.914 ; 32.914 ; 32.914 ; 32.914 ;
+; a[2]       ; overflow    ; 33.811 ; 33.811 ; 33.811 ; 33.811 ;
+; a[3]       ; overflow    ; 33.232 ; 33.232 ; 33.232 ; 33.232 ;
+; a[4]       ; overflow    ; 29.019 ; 29.019 ; 29.019 ; 29.019 ;
+; a[5]       ; overflow    ; 30.510 ; 30.510 ; 30.510 ; 30.510 ;
+; a[6]       ; overflow    ; 30.922 ; 30.922 ; 30.922 ; 30.922 ;
+; a[7]       ; overflow    ; 30.008 ; 30.008 ; 30.008 ; 30.008 ;
+; a[8]       ; overflow    ; 23.994 ; 23.994 ; 23.994 ; 23.994 ;
+; a[9]       ; overflow    ; 24.869 ; 24.869 ; 24.869 ; 24.869 ;
+; a[10]      ; overflow    ; 24.345 ; 24.345 ; 24.345 ; 24.345 ;
+; a[11]      ; overflow    ; 25.744 ; 25.744 ; 25.744 ; 25.744 ;
+; a[12]      ; overflow    ; 25.606 ; 25.606 ; 25.606 ; 25.606 ;
+; a[13]      ; overflow    ; 25.879 ; 25.879 ; 25.879 ; 25.879 ;
+; a[14]      ; overflow    ; 25.900 ; 25.900 ; 25.900 ; 25.900 ;
+; a[15]      ; overflow    ; 18.404 ; 18.404 ; 18.404 ; 18.404 ;
+; a[16]      ; overflow    ; 18.714 ; 18.714 ; 18.714 ; 18.714 ;
+; a[17]      ; overflow    ; 18.843 ; 18.843 ; 18.843 ; 18.843 ;
+; a[18]      ; overflow    ; 20.916 ; 20.916 ; 20.916 ; 20.916 ;
+; a[19]      ; overflow    ; 21.825 ; 21.825 ; 21.825 ; 21.825 ;
+; a[20]      ; overflow    ; 21.418 ; 21.418 ; 21.418 ; 21.418 ;
+; a[21]      ; overflow    ; 21.295 ; 21.295 ; 21.295 ; 21.295 ;
+; a[22]      ; overflow    ; 13.171 ; 13.171 ; 13.171 ; 13.171 ;
+; a[23]      ; overflow    ; 14.029 ; 14.029 ; 14.029 ; 14.029 ;
+; a[24]      ; overflow    ; 14.430 ; 14.430 ; 14.430 ; 14.430 ;
+; a[25]      ; overflow    ; 13.980 ; 13.980 ; 13.980 ; 13.980 ;
+; a[26]      ; overflow    ; 15.875 ; 15.875 ; 15.875 ; 15.875 ;
+; a[27]      ; overflow    ; 16.040 ; 16.040 ; 16.040 ; 16.040 ;
+; a[28]      ; overflow    ; 15.596 ; 15.596 ; 15.596 ; 15.596 ;
+; a[29]      ; overflow    ; 10.826 ; 10.826 ; 10.826 ; 10.826 ;
+; a[30]      ; overflow    ; 11.427 ; 11.427 ; 11.427 ; 11.427 ;
+; a[31]      ; overflow    ; 6.362  ; 6.362  ; 6.362  ; 6.362  ;
+; ainvert    ; overflow    ; 36.250 ; 36.250 ; 36.250 ; 36.250 ;
+; b[0]       ; overflow    ; 33.844 ; 33.844 ; 33.844 ; 33.844 ;
+; b[1]       ; overflow    ; 33.338 ; 33.338 ; 33.338 ; 33.338 ;
+; b[2]       ; overflow    ; 33.380 ; 33.380 ; 33.380 ; 33.380 ;
+; b[3]       ; overflow    ; 33.940 ; 33.940 ; 33.940 ; 33.940 ;
+; b[4]       ; overflow    ; 28.472 ; 28.472 ; 28.472 ; 28.472 ;
+; b[5]       ; overflow    ; 30.726 ; 30.726 ; 30.726 ; 30.726 ;
+; b[6]       ; overflow    ; 30.289 ; 30.289 ; 30.289 ; 30.289 ;
+; b[7]       ; overflow    ; 29.614 ; 29.614 ; 29.614 ; 29.614 ;
+; b[8]       ; overflow    ; 24.026 ; 24.026 ; 24.026 ; 24.026 ;
+; b[9]       ; overflow    ; 24.810 ; 24.810 ; 24.810 ; 24.810 ;
+; b[10]      ; overflow    ; 24.658 ; 24.658 ; 24.658 ; 24.658 ;
+; b[11]      ; overflow    ; 25.984 ; 25.984 ; 25.984 ; 25.984 ;
+; b[12]      ; overflow    ; 25.707 ; 25.707 ; 25.707 ; 25.707 ;
+; b[13]      ; overflow    ; 25.928 ; 25.928 ; 25.928 ; 25.928 ;
+; b[14]      ; overflow    ; 25.965 ; 25.965 ; 25.965 ; 25.965 ;
+; b[15]      ; overflow    ; 18.030 ; 18.030 ; 18.030 ; 18.030 ;
+; b[16]      ; overflow    ; 19.105 ; 19.105 ; 19.105 ; 19.105 ;
+; b[17]      ; overflow    ; 19.051 ; 19.051 ; 19.051 ; 19.051 ;
+; b[18]      ; overflow    ; 20.832 ; 20.832 ; 20.832 ; 20.832 ;
+; b[19]      ; overflow    ; 21.658 ; 21.658 ; 21.658 ; 21.658 ;
+; b[20]      ; overflow    ; 21.480 ; 21.480 ; 21.480 ; 21.480 ;
+; b[21]      ; overflow    ; 21.329 ; 21.329 ; 21.329 ; 21.329 ;
+; b[22]      ; overflow    ; 12.868 ; 12.868 ; 12.868 ; 12.868 ;
+; b[23]      ; overflow    ; 14.017 ; 14.017 ; 14.017 ; 14.017 ;
+; b[24]      ; overflow    ; 14.554 ; 14.554 ; 14.554 ; 14.554 ;
+; b[25]      ; overflow    ; 13.928 ; 13.928 ; 13.928 ; 13.928 ;
+; b[26]      ; overflow    ; 15.770 ; 15.770 ; 15.770 ; 15.770 ;
+; b[27]      ; overflow    ; 16.596 ; 16.596 ; 16.596 ; 16.596 ;
+; b[28]      ; overflow    ; 15.695 ; 15.695 ; 15.695 ; 15.695 ;
+; b[29]      ; overflow    ; 11.057 ; 11.057 ; 11.057 ; 11.057 ;
+; b[30]      ; overflow    ; 10.428 ; 10.428 ; 10.428 ; 10.428 ;
+; b[31]      ; overflow    ; 6.093  ; 6.093  ; 6.093  ; 6.093  ;
+; binvert    ; overflow    ; 35.073 ; 35.073 ; 35.073 ; 35.073 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Progagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; a[0]       ; overflow    ; 16.396 ; 16.396 ; 16.396 ; 16.396 ;
+; a[1]       ; overflow    ; 16.316 ; 16.316 ; 16.316 ; 16.316 ;
+; a[2]       ; overflow    ; 16.409 ; 16.409 ; 16.409 ; 16.409 ;
+; a[3]       ; overflow    ; 16.315 ; 16.315 ; 16.315 ; 16.315 ;
+; a[4]       ; overflow    ; 14.344 ; 14.344 ; 14.344 ; 14.344 ;
+; a[5]       ; overflow    ; 14.558 ; 14.558 ; 14.558 ; 14.558 ;
+; a[6]       ; overflow    ; 14.709 ; 14.709 ; 14.709 ; 14.709 ;
+; a[7]       ; overflow    ; 14.470 ; 14.470 ; 14.470 ; 14.470 ;
+; a[8]       ; overflow    ; 12.115 ; 12.115 ; 12.115 ; 12.115 ;
+; a[9]       ; overflow    ; 12.520 ; 12.520 ; 12.520 ; 12.520 ;
+; a[10]      ; overflow    ; 12.264 ; 12.264 ; 12.264 ; 12.264 ;
+; a[11]      ; overflow    ; 12.346 ; 12.346 ; 12.346 ; 12.346 ;
+; a[12]      ; overflow    ; 12.159 ; 12.159 ; 12.159 ; 12.159 ;
+; a[13]      ; overflow    ; 12.258 ; 12.258 ; 12.258 ; 12.258 ;
+; a[14]      ; overflow    ; 12.087 ; 12.087 ; 12.087 ; 12.087 ;
+; a[15]      ; overflow    ; 9.477  ; 9.477  ; 9.477  ; 9.477  ;
+; a[16]      ; overflow    ; 9.305  ; 9.305  ; 9.305  ; 9.305  ;
+; a[17]      ; overflow    ; 9.151  ; 9.151  ; 9.151  ; 9.151  ;
+; a[18]      ; overflow    ; 9.569  ; 9.569  ; 9.569  ; 9.569  ;
+; a[19]      ; overflow    ; 10.356 ; 10.356 ; 10.356 ; 10.356 ;
+; a[20]      ; overflow    ; 10.170 ; 10.170 ; 10.170 ; 10.170 ;
+; a[21]      ; overflow    ; 10.197 ; 10.197 ; 10.197 ; 10.197 ;
+; a[22]      ; overflow    ; 6.815  ; 6.815  ; 6.815  ; 6.815  ;
+; a[23]      ; overflow    ; 6.625  ; 6.625  ; 6.625  ; 6.625  ;
+; a[24]      ; overflow    ; 6.878  ; 6.878  ; 6.878  ; 6.878  ;
+; a[25]      ; overflow    ; 6.999  ; 6.999  ; 6.999  ; 6.999  ;
+; a[26]      ; overflow    ; 7.233  ; 7.233  ; 7.233  ; 7.233  ;
+; a[27]      ; overflow    ; 7.376  ; 7.376  ; 7.376  ; 7.376  ;
+; a[28]      ; overflow    ; 6.870  ; 6.870  ; 6.870  ; 6.870  ;
+; a[29]      ; overflow    ; 5.763  ; 5.763  ; 5.763  ; 5.763  ;
+; a[30]      ; overflow    ; 6.147  ; 6.147  ; 6.147  ; 6.147  ;
+; a[31]      ; overflow    ; 3.252  ; 3.252  ; 3.252  ; 3.252  ;
+; ainvert    ; overflow    ; 7.164  ; 7.164  ; 7.164  ; 7.164  ;
+; b[0]       ; overflow    ; 16.747 ; 16.747 ; 16.747 ; 16.747 ;
+; b[1]       ; overflow    ; 16.506 ; 16.506 ; 16.506 ; 16.506 ;
+; b[2]       ; overflow    ; 16.259 ; 16.259 ; 16.259 ; 16.259 ;
+; b[3]       ; overflow    ; 16.558 ; 16.558 ; 16.558 ; 16.558 ;
+; b[4]       ; overflow    ; 14.098 ; 14.098 ; 14.098 ; 14.098 ;
+; b[5]       ; overflow    ; 14.650 ; 14.650 ; 14.650 ; 14.650 ;
+; b[6]       ; overflow    ; 14.619 ; 14.619 ; 14.619 ; 14.619 ;
+; b[7]       ; overflow    ; 14.232 ; 14.232 ; 14.232 ; 14.232 ;
+; b[8]       ; overflow    ; 12.135 ; 12.135 ; 12.135 ; 12.135 ;
+; b[9]       ; overflow    ; 12.488 ; 12.488 ; 12.488 ; 12.488 ;
+; b[10]      ; overflow    ; 12.379 ; 12.379 ; 12.379 ; 12.379 ;
+; b[11]      ; overflow    ; 12.446 ; 12.446 ; 12.446 ; 12.446 ;
+; b[12]      ; overflow    ; 12.231 ; 12.231 ; 12.231 ; 12.231 ;
+; b[13]      ; overflow    ; 12.267 ; 12.267 ; 12.267 ; 12.267 ;
+; b[14]      ; overflow    ; 12.110 ; 12.110 ; 12.110 ; 12.110 ;
+; b[15]      ; overflow    ; 9.332  ; 9.332  ; 9.332  ; 9.332  ;
+; b[16]      ; overflow    ; 9.459  ; 9.459  ; 9.459  ; 9.459  ;
+; b[17]      ; overflow    ; 9.126  ; 9.126  ; 9.126  ; 9.126  ;
+; b[18]      ; overflow    ; 9.441  ; 9.441  ; 9.441  ; 9.441  ;
+; b[19]      ; overflow    ; 10.271 ; 10.271 ; 10.271 ; 10.271 ;
+; b[20]      ; overflow    ; 10.247 ; 10.247 ; 10.247 ; 10.247 ;
+; b[21]      ; overflow    ; 10.130 ; 10.130 ; 10.130 ; 10.130 ;
+; b[22]      ; overflow    ; 6.664  ; 6.664  ; 6.664  ; 6.664  ;
+; b[23]      ; overflow    ; 6.686  ; 6.686  ; 6.686  ; 6.686  ;
+; b[24]      ; overflow    ; 6.912  ; 6.912  ; 6.912  ; 6.912  ;
+; b[25]      ; overflow    ; 7.059  ; 7.059  ; 7.059  ; 7.059  ;
+; b[26]      ; overflow    ; 7.203  ; 7.203  ; 7.203  ; 7.203  ;
+; b[27]      ; overflow    ; 7.583  ; 7.583  ; 7.583  ; 7.583  ;
+; b[28]      ; overflow    ; 6.926  ; 6.926  ; 6.926  ; 6.926  ;
+; b[29]      ; overflow    ; 5.869  ; 5.869  ; 5.869  ; 5.869  ;
+; b[30]      ; overflow    ; 5.583  ; 5.583  ; 5.583  ; 5.583  ;
+; b[31]      ; overflow    ; 3.137  ; 3.137  ; 3.137  ; 3.137  ;
+; binvert    ; overflow    ; 6.464  ; 6.464  ; 6.464  ; 6.464  ;
++------------+-------------+--------+--------+--------+--------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 66    ; 66   ;
+; Unconstrained Input Port Paths  ; 66    ; 66   ;
+; Unconstrained Output Ports      ; 1     ; 1    ;
+; Unconstrained Output Port Paths ; 66    ; 66   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sun May 13 22:17:00 2018
+Info: Command: quartus_sta Processador -c Processador
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'Processador.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 473 megabytes
+    Info: Processing ended: Sun May 13 22:17:01 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

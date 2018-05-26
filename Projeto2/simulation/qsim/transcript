@@ -1,0 +1,35 @@
+# do Processador.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:08:45 on May 26,2018
+# vlog -work work Processador.vo 
+# -- Compiling module REGISTRADOR2bits
+# 
+# Top level modules:
+# 	REGISTRADOR2bits
+# End time: 16:08:45 on May 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 16:08:45 on May 26,2018
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module REGISTRADOR2bits_vlg_sample_tst
+# -- Compiling module REGISTRADOR2bits_vlg_check_tst
+# -- Compiling module REGISTRADOR2bits_vlg_vec_tst
+# 
+# Top level modules:
+# 	REGISTRADOR2bits_vlg_vec_tst
+# End time: 16:08:45 on May 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "Processador.do" 
+# Start time: 16:08:45 on May 26,2018
+# Loading work.REGISTRADOR2bits_vlg_vec_tst
+# Loading work.REGISTRADOR2bits
+# Loading altera_ver.dffeas
+# Loading work.REGISTRADOR2bits_vlg_sample_tst
+# Loading work.REGISTRADOR2bits_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(172)
+#    Time: 1 us  Iteration: 0  Instance: /REGISTRADOR2bits_vlg_vec_tst/tb_out
+# End time: 16:08:46 on May 26,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

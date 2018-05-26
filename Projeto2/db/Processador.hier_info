@@ -1,0 +1,18 @@
+|REGISTRADOR3bits
+Q[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst1.ACLR
+CLRN => inst.ACLR
+CLRN => inst3.ACLR
+D[0] => inst.DATAIN
+D[1] => inst1.DATAIN
+D[2] => inst3.DATAIN
+CLK => inst1.CLK
+CLK => inst.CLK
+CLK => inst3.CLK
+ENA => inst1.ENA
+ENA => inst.ENA
+ENA => inst3.ENA
+
+

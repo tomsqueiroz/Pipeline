@@ -1,0 +1,78 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 152 192 656)
+	(text "IF_PARA_ID" (rect 1 0 69 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 488 25 500)(font "Arial" ))
+	(port
+		(pt 0 408)
+		(input)
+		(text "ENA" (rect 0 376 24 390)(font "Arial" (font_size 8)))
+		(text "ENA" (rect 21 403 45 417)(font "Arial" (font_size 8)))
+		(line (pt 0 408)(pt 16 408))
+	)
+	(port
+		(pt 0 424)
+		(input)
+		(text "CLK" (rect 0 376 23 390)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 419 44 433)(font "Arial" (font_size 8)))
+		(line (pt 0 424)(pt 16 424))
+	)
+	(port
+		(pt 0 440)
+		(input)
+		(text "CLRN" (rect 0 376 31 390)(font "Arial" (font_size 8)))
+		(text "CLRN" (rect 21 435 52 449)(font "Arial" (font_size 8)))
+		(line (pt 0 440)(pt 16 440))
+	)
+	(port
+		(pt 0 184)
+		(input)
+		(text "pc_mais_4[31..0]" (rect 0 376 96 390)(font "Arial" (font_size 8)))
+		(text "pc_mais_4[31..0]" (rect 21 179 117 193)(font "Arial" (font_size 8)))
+		(line (pt 0 184)(pt 16 184)(line_width 3))
+	)
+	(port
+		(pt 0 384)
+		(input)
+		(text "dado_mem[31..0]" (rect 0 376 96 390)(font "Arial" (font_size 8)))
+		(text "dado_mem[31..0]" (rect 21 379 117 393)(font "Arial" (font_size 8)))
+		(line (pt 0 384)(pt 16 384)(line_width 3))
+	)
+	(port
+		(pt 128 32)
+		(output)
+		(text "sai_pc[31..0]" (rect -104 376 -31 390)(font "Arial" (font_size 8)))
+		(text "sai_pc[31..0]" (rect 34 27 107 41)(font "Arial" (font_size 8)))
+		(line (pt 128 32)(pt 112 32)(line_width 3))
+	)
+	(port
+		(pt 128 360)
+		(output)
+		(text "sai_data[31..0]" (rect -104 376 -21 390)(font "Arial" (font_size 8)))
+		(text "sai_data[31..0]" (rect 24 355 107 369)(font "Arial" (font_size 8)))
+		(line (pt 128 360)(pt 112 360)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 112 488))
+	)
+)

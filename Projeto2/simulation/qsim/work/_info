@@ -1,0 +1,170 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 dC:\Users\rafae\OneDrive\Área de Trabalho\Projeto2\simulation\qsim
+vBANCOdeREGISTRADORES32bits
+Ie=N3lae_hoeTa98H2@SK:1
+V[MRC`mUT:=TJ>PJid49Lg2
+R0
+w1526419380
+Z1 8Processador.vo
+Z2 FProcessador.vo
+L0 31
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-work work -O0
+n@b@a@n@c@ode@r@e@g@i@s@t@r@a@d@o@r@e@s32bits
+!i10b 1
+!s100 O31?5WegoiF;7z]h>]WY:2
+!s85 0
+!s108 1526419384.493000
+Z5 !s107 Processador.vo|
+Z6 !s90 -work|work|Processador.vo|
+!s101 -O0
+vBANCOdeREGISTRADORES32bits_vlg_check_tst
+!i10b 1
+!s100 <a7n?SG4Df]lzNn<B?Beh1
+IQ@9gUQY1QZKINCRF5hcK:3
+VB]L4Sk20C06dm__WA[JY22
+R0
+Z7 w1526419379
+Z8 8Processador.vt
+Z9 FProcessador.vt
+L0 61
+R3
+r1
+!s85 0
+31
+Z10 !s108 1526419384.777000
+Z11 !s107 Processador.vt|
+Z12 !s90 -work|work|Processador.vt|
+!s101 -O0
+R4
+n@b@a@n@c@ode@r@e@g@i@s@t@r@a@d@o@r@e@s32bits_vlg_check_tst
+vBANCOdeREGISTRADORES32bits_vlg_sample_tst
+!i10b 1
+!s100 haGALT5cN>=PeR;N<<hHV0
+IIneM;@;X2?X_m87gT4OFU2
+V8PbYBgJ@:?ehYAJ=0PDSY0
+R0
+R7
+R8
+R9
+L0 29
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R4
+n@b@a@n@c@ode@r@e@g@i@s@t@r@a@d@o@r@e@s32bits_vlg_sample_tst
+vBANCOdeREGISTRADORES32bits_vlg_vec_tst
+!i10b 1
+!s100 BlMa`@<BPlb[IDQOeG3Ze2
+Ic7Q`:CKce@kATo6Q<C[D`0
+V831:WLcHVA1]9<SW^0ZEC0
+R0
+R7
+R8
+R9
+L0 713
+R3
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+R4
+n@b@a@n@c@ode@r@e@g@i@s@t@r@a@d@o@r@e@s32bits_vlg_vec_tst
+vREGISTRADOR2bits
+Z13 !s110 1527361725
+!i10b 1
+!s100 ><_BK?b7VlJQ@5U5d[_MT1
+Ikm@?g_9FoNcW@h9g_0b?70
+Z14 V`JN@9S9cnhjKRR_L]QIcM3
+Z15 d/home/tom/Documentos/Pipeline/Projeto2/simulation/qsim
+w1527361725
+R1
+R2
+L0 32
+Z16 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1527361725.911948
+R5
+R6
+!i113 1
+Z17 o-work work
+n@r@e@g@i@s@t@r@a@d@o@r2bits
+vREGISTRADOR2bits_vlg_check_tst
+R13
+!i10b 1
+!s100 k<bjl5ZccACz5zA];QWW_0
+IfNiSCLdj2mVoH?_UC^mAh3
+R14
+R15
+Z18 w1527361721
+Z19 8Waveform.vwf.vt
+Z20 FWaveform.vwf.vt
+L0 64
+R16
+r1
+!s85 0
+31
+Z21 !s108 1527361725.941655
+Z22 !s107 Waveform.vwf.vt|
+Z23 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R17
+n@r@e@g@i@s@t@r@a@d@o@r2bits_vlg_check_tst
+vREGISTRADOR2bits_vlg_sample_tst
+R13
+!i10b 1
+!s100 ;XBTzo;o5fTO3bkMn;zE>0
+ITAa3EQzdN`mABFmPHQSPi2
+R14
+R15
+R18
+R19
+R20
+L0 30
+R16
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R17
+n@r@e@g@i@s@t@r@a@d@o@r2bits_vlg_sample_tst
+vREGISTRADOR2bits_vlg_vec_tst
+R13
+!i10b 1
+!s100 f_;JCAc7LOE?dQ[QW4fdg3
+IZR?onQcfaS`D=G3Fh=MfA0
+R14
+R15
+R18
+R19
+R20
+L0 176
+R16
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R17
+n@r@e@g@i@s@t@r@a@d@o@r2bits_vlg_vec_tst
