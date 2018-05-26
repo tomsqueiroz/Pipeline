@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Processador
-Sat May 26 16:15:06 2018
+Sat May 26 17:16:04 2018
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
 
 
@@ -37,9 +37,9 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sat May 26 16:15:06 2018 ;
+; EDA Netlist Writer Status ; Successful - Sat May 26 17:16:04 2018 ;
 ; Revision Name             ; Processador                           ;
-; Top-level Entity Name     ; REGISTRADOR3bits                      ;
+; Top-level Entity Name     ; EX_MEM                                ;
 ; Family                    ; Cyclone V                             ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -66,13 +66,13 @@ agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+---------------------------------------------------------------------------+
-; Simulation Generated Files                                                ;
-+---------------------------------------------------------------------------+
-; Generated Files                                                           ;
-+---------------------------------------------------------------------------+
-; /home/tom/Documentos/Pipeline/Projeto2/simulation/modelsim/Processador.vo ;
-+---------------------------------------------------------------------------+
++------------------------------------------------------------------------+
+; Simulation Generated Files                                             ;
++------------------------------------------------------------------------+
+; Generated Files                                                        ;
++------------------------------------------------------------------------+
+; /home/tom/Documentos/Pipeline/Projeto2/simulation/qsim//Processador.vo ;
++------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -81,13 +81,27 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
-    Info: Processing started: Sat May 26 16:15:04 2018
-Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Processador -c Processador
-Info (204019): Generated file Processador.vo in folder "/home/tom/Documentos/Pipeline/Projeto2/simulation/modelsim/" for EDA simulation tool
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus II License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Sat May 26 17:16:03 2018
+Info: Command: quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/tom/Documentos/Pipeline/Projeto2/simulation/qsim/ Processador -c Processador
+Info (204019): Generated file Processador.vo in folder "/home/tom/Documentos/Pipeline/Projeto2/simulation/qsim//" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 1154 megabytes
-    Info: Processing ended: Sat May 26 16:15:06 2018
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 1156 megabytes
+    Info: Processing ended: Sat May 26 17:16:04 2018
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

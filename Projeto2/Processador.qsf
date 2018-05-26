@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE Auto
-set_global_assignment -name TOP_LEVEL_ENTITY REGISTRADOR3bits
+set_global_assignment -name TOP_LEVEL_ENTITY EX_MEM
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:33:37  MAY 12, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 15.0.0
@@ -72,6 +72,8 @@ set_global_assignment -name BDF_FILE ULA_PC.bdf
 set_global_assignment -name BDF_FILE EX_MEM.bdf
 set_global_assignment -name BDF_FILE REGISTRADOR2bits.bdf
 set_global_assignment -name BDF_FILE REGISTRADOR3bits.bdf
+set_global_assignment -name BDF_FILE REGISTRADOR4bits.bdf
+set_global_assignment -name BDF_FILE REGISTRADOR5bits.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
