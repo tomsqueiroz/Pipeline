@@ -1,5 +1,5 @@
 Assembler report for Processador
-Sat May 26 17:13:45 2018
+Sat May 26 18:55:16 2018
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
 
 
@@ -38,9 +38,9 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat May 26 17:13:45 2018 ;
+; Assembler Status      ; Successful - Sat May 26 18:55:16 2018 ;
 ; Revision Name         ; Processador                           ;
-; Top-level Entity Name ; EX_MEM                                ;
+; Top-level Entity Name ; COMPARADOR32bits                      ;
 ; Family                ; Cyclone V                             ;
 ; Device                ; 5CGXFC7C7F23C8                        ;
 +-----------------------+---------------------------------------+
@@ -68,8 +68,8 @@ agreement for further details.
 ; Option         ; Setting                  ;
 +----------------+--------------------------+
 ; Device         ; 5CGXFC7C7F23C8           ;
-; JTAG usercode  ; 0x00ED5868               ;
-; Checksum       ; 0x00ED5868               ;
+; JTAG usercode  ; 0x00ECC261               ;
+; Checksum       ; 0x00ECC261               ;
 +----------------+--------------------------+
 
 
@@ -79,13 +79,13 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
-    Info: Processing started: Sat May 26 17:13:33 2018
+    Info: Processing started: Sat May 26 18:55:05 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Processador -c Processador
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 969 megabytes
-    Info: Processing ended: Sat May 26 17:13:45 2018
-    Info: Elapsed time: 00:00:12
+    Info: Peak virtual memory: 966 megabytes
+    Info: Processing ended: Sat May 26 18:55:16 2018
+    Info: Elapsed time: 00:00:11
     Info: Total CPU time (on all processors): 00:00:12
 
 
