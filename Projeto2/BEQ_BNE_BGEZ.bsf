@@ -1,0 +1,65 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 224 144)
+	(text "BEQ_BNE_BGEZ" (rect 5 0 110 12)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 114 25 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "OP_BRANCH_MSB" (rect 0 0 118 12)(font "Arial" (font_size 8)))
+		(text "OP_BRANCH_MSB" (rect 21 27 139 39)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "OP_BRANCH_LSB" (rect 0 0 114 12)(font "Arial" (font_size 8)))
+		(text "OP_BRANCH_LSB" (rect 21 43 135 55)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "BIT_ZERO" (rect 0 0 64 12)(font "Arial" (font_size 8)))
+		(text "BIT_ZERO" (rect 21 59 85 71)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "MSB_RES_ULA" (rect 0 0 96 12)(font "Arial" (font_size 8)))
+		(text "MSB_RES_ULA" (rect 21 75 117 87)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "PULA" (rect 0 0 36 12)(font "Arial" (font_size 8)))
+		(text "PULA" (rect 151 27 187 39)(font "Arial" (font_size 8)))
+		(line (pt 208 32)(pt 192 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 192 112))
+	)
+)

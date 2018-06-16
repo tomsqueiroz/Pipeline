@@ -1,0 +1,106 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 288 816)
+	(text "MEN_WB" (rect 5 0 56 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 736 25 748)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "WB[1..0]" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "WB[1..0]" (rect 21 27 69 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 712)
+		(input)
+		(text "CLRN" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "CLRN" (rect 21 707 52 721)(font "Arial" (font_size 8)))
+		(line (pt 0 712)(pt 16 712))
+	)
+	(port
+		(pt 0 688)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 683 44 697)(font "Arial" (font_size 8)))
+		(line (pt 0 688)(pt 16 688))
+	)
+	(port
+		(pt 0 664)
+		(input)
+		(text "ENA" (rect 0 0 24 14)(font "Arial" (font_size 8)))
+		(text "ENA" (rect 21 659 45 673)(font "Arial" (font_size 8)))
+		(line (pt 0 664)(pt 16 664))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "MEMO[31..0]" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "MEMO[31..0]" (rect 21 235 91 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240)(line_width 3))
+	)
+	(port
+		(pt 0 464)
+		(input)
+		(text "EXMEN[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "EXMEN[31..0]" (rect 21 459 96 473)(font "Arial" (font_size 8)))
+		(line (pt 0 464)(pt 16 464)(line_width 3))
+	)
+	(port
+		(pt 0 568)
+		(input)
+		(text "CINCO[4..0]" (rect 0 0 64 14)(font "Arial" (font_size 8)))
+		(text "CINCO[4..0]" (rect 21 563 85 577)(font "Arial" (font_size 8)))
+		(line (pt 0 568)(pt 16 568)(line_width 3))
+	)
+	(port
+		(pt 224 32)
+		(output)
+		(text "OUT_WB[1..0]" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "OUT_WB[1..0]" (rect 123 27 203 41)(font "Arial" (font_size 8)))
+		(line (pt 224 32)(pt 208 32)(line_width 3))
+	)
+	(port
+		(pt 224 296)
+		(output)
+		(text "MUX_1[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "MUX_1[31..0]" (rect 128 291 203 305)(font "Arial" (font_size 8)))
+		(line (pt 224 296)(pt 208 296)(line_width 3))
+	)
+	(port
+		(pt 224 360)
+		(output)
+		(text "MUX_2[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "MUX_2[31..0]" (rect 128 355 203 369)(font "Arial" (font_size 8)))
+		(line (pt 224 360)(pt 208 360)(line_width 3))
+	)
+	(port
+		(pt 224 568)
+		(output)
+		(text "OUT_CINCO[4..0]" (rect 0 0 96 14)(font "Arial" (font_size 8)))
+		(text "OUT_CINCO[4..0]" (rect 107 563 203 577)(font "Arial" (font_size 8)))
+		(line (pt 224 568)(pt 208 568)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 208 728))
+	)
+)

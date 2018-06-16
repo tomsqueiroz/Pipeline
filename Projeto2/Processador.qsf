@@ -36,9 +36,9 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name FAMILY "Cyclone IV GX"
 set_global_assignment -name DEVICE Auto
-set_global_assignment -name TOP_LEVEL_ENTITY COMPARADOR32bits
+set_global_assignment -name TOP_LEVEL_ENTITY CONTROLE_PRINCIPAL
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:33:37  MAY 12, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 15.0.0
@@ -46,6 +46,14 @@ set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE MEN_WB.bdf
+set_global_assignment -name BDF_FILE COMPARADOR32bits.bdf
+set_global_assignment -name BDF_FILE EX_MEM.bdf
 set_global_assignment -name BDF_FILE ULU1bit.bdf
 set_global_assignment -name BDF_FILE FULLADDER.bdf
 set_global_assignment -name BDF_FILE BANCOdeREGISTRADORES32bits.bdf
@@ -53,28 +61,37 @@ set_global_assignment -name BDF_FILE PRINCIPAL.bdf
 set_global_assignment -name BDF_FILE ULA1bit.bdf
 set_global_assignment -name BDF_FILE ULA32bits.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
-set_global_assignment -name SIMULATION_MODE FUNCTIONAL
-set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name BDF_FILE PRIULA1bit.bdf
-set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
-set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
-set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name BDF_FILE REGISTRADORES.bdf
 set_global_assignment -name BDF_FILE MUX16X1.bdf
 set_global_assignment -name BDF_FILE MUX2X31.bdf
 set_global_assignment -name BDF_FILE seletor.bdf
 set_global_assignment -name BDF_FILE ULA_JAMP.bdf
 set_global_assignment -name BDF_FILE extensor6bits.bdf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/rafae/Desktop/Projeto2/Waveform.vwf"
 set_global_assignment -name BDF_FILE REGISTRADOR32_1.bdf
 set_global_assignment -name BDF_FILE IF_PARA_ID.bdf
 set_global_assignment -name BDF_FILE ULA_PC.bdf
-set_global_assignment -name BDF_FILE EX_MEM.bdf
-set_global_assignment -name BDF_FILE REGISTRADOR2bits.bdf
-set_global_assignment -name BDF_FILE REGISTRADOR3bits.bdf
-set_global_assignment -name BDF_FILE REGISTRADOR4bits.bdf
-set_global_assignment -name BDF_FILE REGISTRADOR5bits.bdf
-set_global_assignment -name BDF_FILE COMPARADOR32bits.bdf
+set_global_assignment -name BDF_FILE REGISTRADOR5.bdf
+set_global_assignment -name BDF_FILE ID_PARA_EX.bdf
+set_global_assignment -name BDF_FILE MUX3x1.bdf
+set_global_assignment -name BDF_FILE extensor16bits.bdf
+set_global_assignment -name BDF_FILE desloc2bits.bdf
+set_global_assignment -name BDF_FILE MUX2X1_5bits.bdf
+set_global_assignment -name BDF_FILE TESTE.bdf
+set_global_assignment -name BDF_FILE MUX4X1_32bits.bdf
+set_global_assignment -name BDF_FILE CONTROLE.bdf
+set_global_assignment -name BDF_FILE CONTROLE_PRINCIPAL.bdf
+set_global_assignment -name BDF_FILE MUX2X1_32bits.bdf
+set_global_assignment -name BDF_FILE MUX2X1_9bits.bdf
+set_global_assignment -name QIP_FILE MEM_INST.qip
+set_global_assignment -name BDF_FILE UNI_FORW.bdf
+set_global_assignment -name BDF_FILE UNI_HAZARD.bdf
+set_global_assignment -name BDF_FILE LUI.bdf
+set_global_assignment -name QIP_FILE MEM_DATA.qip
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/rafae/OneDrive/Área de Trabalho/Projeto2/Waveform.vwf"
+set_global_assignment -name BDF_FILE MUXTIPOROUTIPOSI.bdf
+set_global_assignment -name BDF_FILE OPCODETOOPALU.bdf
+set_global_assignment -name BDF_FILE BEQ_BNE_BGEZ.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

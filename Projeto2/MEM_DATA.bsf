@@ -1,0 +1,78 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 56 56 264 280)
+	(text "MEM_DATA" (rect 13 8 72 20)(font "Arial" ))
+	(text "inst" (rect 8 208 25 220)(font "Arial" ))
+	(port
+		(pt 0 192)
+		(input)
+		(text "clock" (rect 0 8 25 20)(font "Arial" ))
+		(text "clock" (rect 21 187 46 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 136)
+		(input)
+		(text "data[31..0]" (rect 0 8 53 20)(font "Arial" ))
+		(text "data[31..0]" (rect 21 131 74 143)(font "Arial" ))
+		(line (pt 0 136)(pt 16 136)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "rdaddress[12..0]" (rect 0 8 80 20)(font "Arial" ))
+		(text "rdaddress[12..0]" (rect 21 75 101 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "rden" (rect 0 8 21 20)(font "Arial" ))
+		(text "rden" (rect 21 155 42 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "wraddress[12..0]" (rect 0 8 81 20)(font "Arial" ))
+		(text "wraddress[12..0]" (rect 21 35 102 47)(font "Arial" ))
+		(line (pt 0 40)(pt 16 40)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "wren" (rect 0 8 22 20)(font "Arial" ))
+		(text "wren" (rect 21 107 43 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 208 40)
+		(output)
+		(text "q[31..0]" (rect 16 8 53 20)(font "Arial" ))
+		(text "q[31..0]" (rect 156 35 187 47)(font "Arial" ))
+		(line (pt 208 40)(pt 192 40)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 24 24 184 208))
+	)
+)
